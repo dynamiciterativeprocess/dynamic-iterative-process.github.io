@@ -1,6 +1,6 @@
 # Site Settings
 baseurl: ""
-url : "https://naye0ng.github.io"
+url : "https://dynamic-iterative-process.github.io"
 
 # Blog Settings
 theme_settings :
@@ -10,31 +10,18 @@ theme_settings :
   # Profile Settings
   profile :
     image : assets/img/smile.png
-    username : Nayeong Kim
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
-    experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
-    skills : 
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
+    username : dynamiciterativeprocess
+    description : Naomi Pereira's Data Protfolio
+    skill : Python, SQL , Jupyter Notebook
+    location : London, United Kingdom
+    Domain: Aspiring Data Analyst with a passion for Finance & Tech
         
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
-    linkedin:  # Full URL 
-    github: naye0ng
-    gitlab: 
-    bitbucket: 
-    google_plus:
-    twitter:
-    youtube:
-    facebook:
-    instagram:
-
-  # Disqus
-  disqus_shortname :
+    email:  naomipereira1810@gmail.com
+    linkedin: https://www.linkedin.com/in/n-pereira-a8bb8523a/
+    github: dynamiciterativeprocess
+    phone: +44 7436363808
 
 # Pagination
 paginate: 5
@@ -44,6 +31,7 @@ paginate_path: "blog/page:num"
 sass:
   sass_dir: _sass
   style: :compressed
-gems: [jekyll-paginate]
+gems: 
+  - jekyll-paginate # Added 'jekyll-paginate' gem
 bootstrap:
   assets: true
